@@ -18,18 +18,5 @@ Aparecerá três opções de package manager que você pode usar no projeto. No 
 
 ![image-03](./../../workshop-images/image-03.jpg)
 
-Depois de finalizar a criação do projeto, há alguns arquivo que não iremos usar. Com isso, podem deletar os arquivos: 
-
-* `src/app.service.ts`
-* `src/app.controller.spec.ts`
-* `src/app.controller.ts`
-* E a pasta `test`
-
-Em caso de dúvidas, segue a imagem abaixo:
-
-![image-04](./../../workshop-images/image-04.jpg)
-
-
-
 
 
