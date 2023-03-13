@@ -6,12 +6,13 @@ Se vocês desejarem saber mais detalhes sobre o NestJs pode clicar **[AQUI](http
 
 ## Criando o Projeto
 
-Primeira coisa que precisamos fazer é criar o projeto com o NestJs. Para isso, crie uma pasta localmente em sua máquina chamada, por exemplo: `dab-project` e dentro dessa pasta, pedirei para você criar outras duas pastas: `api` e `client`.
+Primeira coisa que precisamos fazer é criar o projeto com o NestJs. Para isso, crie uma pasta localmente em sua máquina chamada, por exemplo: `dab-project` e dentro dessa pasta, pedirei para você criar a pasta `client`.
 
-Após iremos inicialmente focar na pasta `api`. Para criar o projeto, abra o terminal e navegue até a pasta `api` e execute o comando no prompt de comando:
+E a pasta `api` criaremos usando o seguinte comando do NestJs:
+
 
 ```bash
-npx @nestjs/cli new dab-employee-api
+npx @nestjs/cli new api
 ```
 
 Aparecerá três opções de package manager que você pode usar no projeto. No nosso caso, estaremos optando por `npm`
