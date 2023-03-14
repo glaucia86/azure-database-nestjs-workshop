@@ -55,5 +55,49 @@ Abre o Postman e digite o seguinte endereço: [http://localhost:3000](http://loc
 
 Se aparecer a mensagem 'Hello World' é porque a nossa aplicação está executando com sucesso!
 
+## Incluindo o Swagger no Projeto
+
+Estaremos fazendo uso do Swagger para mapear as rotas da nossa API. Para isso, precisamos incluir o Swagger no projeto. Para isso, abra o arquivo `main.ts` e inclua o seguinte código:
+
+<details><summary><b>src/main.ts</b></summary>
+
+```typescript
+import { NestFactory } from '@nestjs/core';
+import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
+import { AppModule } from './app.module';
+
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule);
+
+  const config = new DocumentBuilder()
+    .setTitle('Workshop DAB API')
+    .setDescription('The API Documentation for the DAB Workshop')
+    .setVersion('1.0')
+    .addTag('employee-api')
+    .build();
+
+  const document = SwaggerModule.createDocument(app, config);
+  SwaggerModule.setup('api', app, document);
+
+  await app.listen(3000);
+}
+bootstrap();
+```
+</details>
+<br/>
+
+Aqui nada de diferente do que a documentação do NestJs está pedindo para fazer em relação ao uso do **[SwaggerModule](https://docs.nestjs.com/openapi/introduction)**. Vamos testar se o Swagger está corretamente configurado. Para isso, execute o projeto e acesse o endereço no browser: **[http://localhost:3000/api](http://localhost:3000/api)**
+
+```bash
+npm run start:dev
+```
+
+Se ao digitar o endereço aparecer a seguinte tela, é porque o Swagger está funcionando corretamente:
+
+![image-06](./../../workshop-images/image-06.jpg)
+
+Excelente! Agora vamos avançar para a próxima etapa.
+
+**[⬅️ Voltar: Sessão 03](./03-session.md) | **[Próximo: Sessão 05 ➡️](./05-session.md)****
 
 
