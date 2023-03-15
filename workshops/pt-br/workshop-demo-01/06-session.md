@@ -97,6 +97,44 @@ export const databaseProviders = [
 </details>
 <br/>
 
+Precisamos agora criar um módulo para que possamos injetar o nosso `DATA_SOURCE` em outros lugares da aplicação. Para isso, crie um arquivo chamado `database.module.ts` dentro da pasta `src/config/typeorm` e adicione o seguinte código:
+
+<details><summary><b>src/config/typeorm/database.module.ts</b></summary>
+
+```typescript
+import { Module } from '@nestjs/common';
+import { databaseProviders } from './database.providers';
+
+@Module({
+  providers: [...databaseProviders],
+  exports: [...databaseProviders],
+})
+export class DatabaseModule { }
+```
+</details>
+<br/>
+
+Ainda não acabou. Precisamos ainda criar um provider para a entidade `Employee`. Para isso, crie um arquivo chamado `employee.providers.ts` dentro da pasta `src/employee` e adicione o seguinte código:
+
+<details><summary><b>src/employee/employee.providers.ts</b></summary>
+
+```typescript
+import { DataSource } from "typeorm";
+import { Employee } from "./entities/employee.entity";
+
+export const employeeProviders = [
+  {
+    provide: 'EMPLOYEE_REPOSITORY',
+    useFactory: (dataSource: DataSource) => dataSource.getRepository(Employee),
+    inject: ['DATA_SOURCE'],
+  },
+];
+```
+</details>
+<br/>
+
+
+
 
 
 
