@@ -1,4 +1,4 @@
-# Full Stack Application com DAB & Vue.js
+# Full Stack Application com DAB + Azure SQL + NestJs & Vue.js
 
 <some image here>
 ![]()
@@ -26,10 +26,10 @@ Os bancos de dados suportados são:
 Para seguir esse workshop, você precisará ter instalado em sua máquina:
 
 - **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=javascript-75515-gllemos)**
-- **[Node.Js 18.x](https://nodejs.org/en/)**
+- **[Node.Js](https://nodejs.org/en/)**
 - **[Azure Static Web Apps](https://azure.microsoft.com/services/app-service/static/?WT.mc_id=javascript-75515-gllemos)** 
 - **[.NET 6.0 SDK](https://learn.microsoft.com/azure/azure-functions/?WT.mc_id=javascript-75515-gllemos)** 
-- **[Azure Functions Core Tools 4.x](https://dotnet.microsoft.com/download/dotnet/6.0?WT.mc_id=javascript-75515-gllemos)** 
+
 - **[Vue.Js](https://vuejs.org/)** 
   - Algumas extensões do Visual Studio Code:
     - **[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot&WT.mc_id=javascript-75515-gllemos)**
