@@ -1,4 +1,4 @@
-# Workshop - Learn: DAB (Data API Builder) with NestJS
+# Workshop - Learn: DAB (Data API Builder) with NestJS & Vue.Js
 
 ![dab-nestjs](img/dab-nestjs.gif)
 
