@@ -133,6 +133,9 @@ export const employeeProviders = [
 </details>
 <br/>
 
+Ufa! Conseguimos concluir a parte da configuração da Base de Dados da nossa aplicação. Agora vamos dar continuidade par enfim começar a criar os nossos endpoints.
+
+**[⬅️ Voltar: Sessão 05](./05-session.md) | **[Próximo: Sessão 07 ➡️](./07-session.md)****
 
 
 
