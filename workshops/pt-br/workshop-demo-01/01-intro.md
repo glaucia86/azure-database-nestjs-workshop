@@ -38,7 +38,7 @@ Para seguir esse workshop, você precisará ter instalado em sua máquina:
     - **[REST Client Extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client&WT.mc_id=javascript-75515-gllemos)**
     - **[Remote Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers&WT.mc_id=javascript-75515-gllemos)**
     
-
+**[Próximo: Sessão 02 ➡️](./02-session.md)**
 
 
 
