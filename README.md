@@ -1,11 +1,11 @@
-# Workshop - Learn: DAB (Data API Builder) with NestJS & Vue.Js
+# Workshop - Learn: Azure Databases with NestJs & Vue.Js
 
 ![dab-nestjs](img/dab-nestjs.gif)
 
 <p style="text-align: center;">❤️ Developed by the Community for the Community!❤️</p>
 <br/>
 
-Welcome to the DAB (Data API Builder) workshops with NestJs. In this repository, you will find a series of workshops that will help you learn how to develop an application using DAB with NestJS, but with different databases!
+Welcome to the workshop about **[Azure Databases](https://azure.microsoft.com/en-us/services/databases/?WT.mc_id=javascript-75515-gllemos)**! In this workshop, you'll learn how to create a full stack application using **[NestJs](https://nestjs.com/)**, **[Vue.Js](https://vuejs.org/)** and **[Azure Databases](https://azure.microsoft.com/en-us/services/databases/?WT.mc_id=javascript-75515-gllemos)**.
 
 ## 🚀 Resources Used
 
@@ -15,7 +15,6 @@ Welcome to the DAB (Data API Builder) workshops with NestJs. In this repository,
 - **[Azure Data Studio](https://azure.microsoft.com/en-us/products/data-studio/)**
 - **[Azure Static Web Apps](https://azure.microsoft.com/services/app-service/static/?WT.mc_id=javascript-75515-gllemos)** 
 - **[Azure Static Web App CLI](https://azure.github.io/static-web-apps-cli/)**
-- **[.NET 6.0 SDK](https://learn.microsoft.com/azure/azure-functions/?WT.mc_id=javascript-75515-gllemos)** 
 - **[Vue.Js](https://vuejs.org/)** 
   - Some Visual Studio Code extensions:
     - **[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot&WT.mc_id=javascript-75515-gllemos)**
@@ -40,4 +39,4 @@ Here are some free courses and important resources that you can use to learn mor
 
 ## ❓ Questions? Comments? 
 
-If you have any questions about the code developed, feel free to open an **[ISSUE HERE](https://github.com/glaucia86/dab-workshop/issues)**. We'll get back to you soon!
+If you have any questions about the code developed, feel free to open an **[ISSUE HERE](https://github.com/glaucia86/azure-database-nestjs-workshop/issues)**. We'll get back to you soon!
