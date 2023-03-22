@@ -1,7 +1,6 @@
 # Full Stack Application com Azure SQL + NestJs & Vue.js
 
-<some image here>
-![image-azure-databases](../../../img/azure-databases.gif)
+![image-01](./../../workshop-images/azure-databases.gif)
 
 Nesse workshop vamos aprender a criar uma aplicação completa utilizando o Azure SQL, NestJs e o Vue.js. Vamos criar uma aplicação de gerenciamento de empregados, onde podemos cadastrar, editar e excluir funcionários.
 
