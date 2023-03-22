@@ -1,25 +1,22 @@
-# Full Stack Application com DAB + Azure SQL + NestJs & Vue.js
+# Full Stack Application com Azure SQL + NestJs & Vue.js
 
 <some image here>
-![]()
+![image-azure-databases](../../../img/azure-databases.gif)
 
-Nesse workshop vamos aprender a criar uma aplicação completa utilizando o DAB e o Vue.js. Vamos criar uma aplicação de gerenciamento de empregados, onde podemos cadastrar, editar e excluir funcionários.
+Nesse workshop vamos aprender a criar uma aplicação completa utilizando o Azure SQL, NestJs e o Vue.js. Vamos criar uma aplicação de gerenciamento de empregados, onde podemos cadastrar, editar e excluir funcionários.
 
-## O que é o DAB?
+## O que é o Azure SQL?
 
-DAB é um serviço que nos permite conectar um Banco de Dados com aplicações estáticas usando o Azure Static Web Apps de forma simples e rápida. Até o presente momento, o DAB está na sua versão preview. 
+O **[Azure SQL](https://azure.microsoft.com/en-us/services/sql-database/?WT.mc_id=javascript-75515-gllemos)** é um banco de dados relacional gerenciado como serviço (DBaaS) que oferece uma ampla gama de recursos de banco de dados, incluindo segurança, confiabilidade, escalabilidade e gerenciamento de desempenho. O Azure SQL oferece uma variedade de opções de banco de dados, incluindo o SQL Server, o Azure SQL Database e o Azure SQL Managed Instance.
 
-Com esse serviço, podemos facilmente manipular dados com suporte para operações CRUD (Create, Read, Update e Delete). Incluso também suporte para autorização integrada e relacionamentos. 
+## O que é o NestJs?
 
-Se você desejar aprender mais sobre o Data API Builder  <colocar alguns links da documentação aqui>.
+NestJs é um framework para construção de aplicações backend em Node.js. Ele é baseado no Express e utiliza o TypeScript. O NestJs é um framework que permite a criação de aplicações escaláveis, com uma estrutura modular e que pode ser facilmente testada.
 
-Os bancos de dados suportados são:
+## O que é o Vue.js?
 
-- **[Azure SQL](https://azure.microsoft.com/products/azure-sql/?WT.mc_id=javascript-75515-gllemos)** 
-- **[SQL Server](https://www.microsoft.com/sql-server/sql-server-downloads?WT.mc_id=javascript-75515-gllemos)**
-- **[PostgreSQL](https://www.postgresql.org/)** 
-- **[MySQL](https://www.mysql.com/)**
-- **[Cosmos DB](https://azure.microsoft.com/products/cosmos-db/?WT.mc_id=javascript-75515-gllemos)**
+Vue.js é um framework JavaScript de código aberto para construção de interfaces de usuário e aplicativos de página única. É projetado para ser incrementado e adaptado para as necessidades de desenvolvimento. O Vue.js é um framework progressivo, o que significa que é possível adotá-lo em uma aplicação existente e adicionar novas funcionalidades ao longo do tempo.
+
 
 ## Pré-requisitos
 
@@ -28,7 +25,6 @@ Para seguir esse workshop, você precisará ter instalado em sua máquina:
 - **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=javascript-75515-gllemos)**
 - **[Node.Js](https://nodejs.org/en/)**
 - **[Azure Static Web Apps](https://azure.microsoft.com/services/app-service/static/?WT.mc_id=javascript-75515-gllemos)** 
-- **[.NET 6.0 SDK](https://learn.microsoft.com/azure/azure-functions/?WT.mc_id=javascript-75515-gllemos)** 
 
 - **[Vue.Js](https://vuejs.org/)** 
   - Algumas extensões do Visual Studio Code:

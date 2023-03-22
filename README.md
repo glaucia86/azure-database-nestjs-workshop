@@ -1,6 +1,6 @@
 # Workshop - Learn: Azure Databases with NestJs & Vue.Js
 
-![dab-nestjs](img/dab-nestjs.gif)
+![dab-nestjs](img/azure-databases.gif)
 
 <p style="text-align: center;">❤️ Developed by the Community for the Community!❤️</p>
 <br/>
